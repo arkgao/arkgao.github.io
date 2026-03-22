@@ -125,6 +125,34 @@ a:hover {
 }
 
 /* ========================================
+   简历按钮
+   ======================================== */
+.cv-buttons {
+    display: flex;
+    gap: 0.5em;
+    margin-top: 0;
+}
+
+.cv-btn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.5em;
+    flex: 1;
+    padding: 0.5em;
+    border: 1px solid #f2f3f3;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.2s;
+}
+
+.cv-btn:hover {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* ========================================
    主内容区域
    ======================================== */
 .page-content {
